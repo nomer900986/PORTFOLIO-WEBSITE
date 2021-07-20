@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+  <title>Resume</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+
+
+<!-- Header -->
+<header class="header">
+  <div class="container">
+    <div class="header__inner">
+
+      <div class="user">
+        <div class="user__avatar">
+          <img src="images/avatar.jpg" alt="">
+        </div>
+        <div class="user__content">
+          <div class="user__name">Krutikov<br>Stepan</div>
+          <div class="user__prof">FullStack Web-Developer</div>
+        </div>
+      </div>
+
+      <nav class= "nav">
+        <a class = "nav__link" href="#works">work</a>
+        <a class = "nav__link" href="#about-me">about me</a>
+        <a class = "nav__link nav__link--btn" href="#" data-modal="#modal_hire_me">hire me</a>
+      </nav>
+
+      <div class="burger">
+        <img class="burger__icon" src="images/burger.png" alt="">
+      </div>
+
+    </div>
+  </div>
+</header>
+<!-- ./Header -->
+
+<!-- Intro -->
+<section class="intro">
+    <div class="container"> <!-- container -->
+      <div class="intro__inner">  <!-- intro__inner -->
+        <div class="intro__left">
+          <h2 class="intro__subtitle"><span class= 'typed'></span>&#8291;</h2>
+          <h1 class= "intro__title__name"><span class= 'typed2'></span>&#8291;</h1>
+          <h1 class= "intro__title__lastname"><span class= 'typed3'></span>&#8291;</h1>
+        
+          <div class="intro__right">
+            <div class="intro__right__container">
+              <ul class="intro__right__container__list">
+                <li class="intro__right__container__list__item">FullStack Web-Developer</li>
+                <li class="intro__right__container__list__item">Genius</li>
+                <li class="intro__right__container__list__item">Billionaire</li>
+                <li class="intro__right__container__list__item">Philanthropist</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="social">
+            <a class="social__link" href="https://t.me/nomer900986" target="_blank" >
+              <img src="images/telegram.png" alt="">
+            </a>
+            <a class="social__link" href="https://github.com/nomer900986" target="_blank">
+              <img src="images/git.png" alt="">
+            </a>
+            <a class="social__link" href="#" target="_blank">
+              <img src="images/instagram.png" alt="">
+            </a>
+            <a class="social__link" href="https://vk.com/nomer900986"target="_blank" >
+              <img src="images/vk.png" alt="">
+            </a>
+          </div>
+          <a class= "btn" href="#" data-modal="#modal_hire_me" >HIRE ME</a>
+          <a class = "btn" href="#about-me" >SEE MY RESUME</a>
+        </div> 
+      </div> <!-- /.intro__inner -->
+    </div> <!-- /.container -->
+</section>
+<!-- ./Intro -->
+
+<!-- Works -->
+<div class="works" id="works">
+  <div class="container">
+
+    <h1 class = "works__title">My works</h1>
+
+    <div class="portfolio">
+      <a class="portfolio__col" href="https://github.com/nomer900986/PORTFOLIO-WEBSITE" target="_blank">
+        <div class="work">
+          <img class = work__image src="images/project1_image.jpg" alt=""> 
+          <div class="work__content">
+            <div class="work__cat">Web</div>
+            <div class="work__title">
+              portfolio website
+              <time class="work__date" datetime="2021-07-21 15:00">2021</time>
+            </div>
+          </div>
+        </div>
+      </a>
+      </div>
+
+  </div>  <!-- ./container -->
+</div> <!-- ./Works -->
+
+<!-- About me -->
+<section class="about" >
+  <div class="container"  id="about-me" >
+    <div class="about__content">
+      <h3 class="about__title">ABOUT ME</h3>
+      <h2 class="about__bigtitle">WHO AM I</h2>
+      <div class="about__text">
+        <p>I'm a novice full-stack web developer, finishing the second year of the institute.</p><p> The scope of my work is a large part of the front end: HTML/CSS/JS. Also, I have some knowledge in the field of back-end (I can write a simple server on Node JS and connect a database to it).</p>
+      </div>
+      <a class= "btn" href="#" data-modal="#modal_hire_me">HIRE ME</a>
+    </div> <!-- ./about__content -->
+  </div> <!-- ./container -->
+</section> <!-- ./About me -->
+
+<!-- Footer-->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__credits">
+        <div class="footer__copyright">
+          &copy; 2021 Stepan Krutikov
+        </div>
+
+        <div class="footer__social">
+          <a href="https://t.me/nomer900986" target="_blank">
+            <img src="images/telegram.png" width = "24" alt="">
+          </a>
+          <a href="https://github.com/nomer900986" target="_blank">
+            <img src="images/git.png" width = "24" alt="">
+          </a>
+          <a href="#" target="_blank">
+            <img src="images/instagram.png" width = "24" alt="">
+          </a>
+          <a href="https://vk.com/nomer900986" target="_blank">
+            <img src="images/vk.png" width = "24" alt="">
+          </a>
+        </div>
+      </div> <!-- ./footer__credits-->
+    <nav class="footer__nav">
+      <a class="footer__nav-link" href="#works">Work</a>
+      <a class="footer__nav-link" href="#about-me">About me</a>
+      <a class="footer__nav-link footer__nav-link--btn" href="#" data-modal="#modal_hire_me">Hire me</a>
+    </nav> 
+    </div> <!--./footer__inner-->
+  </div> <!-- ./container -->
+</footer> <!-- ./Footer-->
+
+<!-- Modal -->
+<div class="modal" id="modal_hire_me">
+  <div class="modal__dialog">
+    <button class="modal__close" type="button" data-close>
+      <img src="images/cancel.png" alt="Close">
+    </button>
+
+      <div class="contact">
+        <div class="contact__left">
+          <h3 class="modal__title">LET'S TALK</h3>
+          <h4 class="modal__subtitle">CALL ME OR SEND ME A REQUEST</h4>
+          <ul class="contact__info">
+            <li class="contact__info-item">
+              <img class="contact__info-icon" src="images/phone-call.png" alt="">
+              (964) 560 6543
+            </li>
+            <li class="contact__info-item">
+              <img class="contact__info-icon" src="images/email.png" alt="">
+              nomer900986@yandex.ru
+            </li>
+          </ul>
+
+          <form class="form" name="publish" action="/" method="post"  >
+            <div class="form__group" >
+              <label class="form__label" for="input-email">Adress e-mail</label>
+              <input class="form__input" name="input-email" type="text" id="input-email" placeholder="Adress e-mail">
+            </div>
+
+            <div class="form__group" >
+              <label class="form__label" for="input-text">Request</label>
+              <textarea class="form__textarea" name="input-text" id="input-text" placeholder="Type your request..." ></textarea>
+            </div>
+            <div class="text-right">
+              <button class="btn" type="submit">SEND</button>
+            </div>
+          </form>
+
+        </div> <!-- ./contact__left-->
+
+      </div> <!-- ./contact-->
+
+  </div> <!-- ./modal__dialog -->
+</div> <!-- ./Modal -->
+
+<!--JS-->
+<script src='js/app.js'></script>
+<script src='js/typed.min.js'></script>
+
+<script> 
+    var typed = new Typed('.typed', {
+  strings: ["Hello, I am "],
+  typeSpeed: 60,
+  showCursor: false,
+  startDelay: 200
+});
+
+  var typed2 = new Typed('.typed2',{
+        strings: ["Stepan"],
+        startDelay: 1500,
+        typeSpeed: 60,
+        showCursor: false
+      });
+      var typed3 = new Typed('.typed3',{
+        strings: ["Krutikov"],
+        startDelay: 2000,
+        typeSpeed: 60,
+        showCursor: false
+      });
+</script> 
+<!-- ./JS -->
+</body>
+</html>
